@@ -15,7 +15,7 @@ const normalizePort = (value) => {
   return false;
 }
 
-const port = normalizePort(process.env.PORT || '443');
+const port = normalizePort(process.env.PORT || '3030');
 app.set('port', port);
 
 const server = http.createServer(app);
