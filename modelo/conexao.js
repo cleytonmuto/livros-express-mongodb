@@ -9,7 +9,7 @@ const options = {
 };
 
 const URI = `mongodb+srv://${process.env.DB_USER}:` +
-`${process.env.DB_PASSWORD}@${process.env.DB_URI}/`;
+`${process.env.DB_PASSWORD}@${process.env.DB_URI}/?retryWrites=true&w=majority`;
 
 banco.connect(URI, options);
 
