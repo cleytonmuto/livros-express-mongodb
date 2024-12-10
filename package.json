@@ -17,12 +17,16 @@
     "express": "^4.21.2",
     "follow-redirects": "^1.15.9",
     "http-errors": "^2.0.0",
+    "ip": "^2.0.1",
     "mongoose": "^8.8.4",
     "morgan": "^1.10.0",
-    "path-to-regexp": ">=8.2.0"
+    "path-to-regexp": ">=8.2.0",
+    "postcss": "^8.4.49",
+    "semver": "^7.6.3",
+    "socket.io-parser": "^3.3.4"
   },
   "devDependencies": {
-    "@babel/traverse": ">=7.26.4",
+    "@babel/traverse": "^7.26.4",
     "nodemon": "^3.1.7"
   }
 }
